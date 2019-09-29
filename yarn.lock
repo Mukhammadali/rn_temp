@@ -1945,7 +1945,7 @@ expo-asset@~7.0.0:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
-expo-constants@~7.0.0:
+expo-constants@^7.0.0, expo-constants@~7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-7.0.0.tgz#668c3ec0100e219522ffd9515ec47fadfccd443d"
   integrity sha512-oLINuMtGcAwfHGInSVhq6xGojp3atUpSIp7KImo9rqXhWwD5FNmqA5Jflo4J0ODPq590kN5ieiYCCqwls2/u0w==
@@ -2519,11 +2519,6 @@ immediate@^3.2.2:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.2.3.tgz#d140fa8f614659bd6541233097ddaac25cdd991c"
   integrity sha1-0UD6j2FGWb1lQSMwl92qwlzdmRw=
-
-immutable@^4.0.0-rc.12:
-  version "4.0.0-rc.12"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.0.0-rc.12.tgz#ca59a7e4c19ae8d9bf74a97bdf0f6e2f2a5d0217"
-  integrity sha512-0M2XxkZLx/mi3t8NVwIm1g8nHoEmM9p9UBl/G9k4+hm0kBgOVdMV/B3CY5dQ8qG8qc80NN4gDV4HQv6FTJ5q7A==
 
 import-fresh@^2.0.0:
   version "2.0.0"
@@ -3530,6 +3525,11 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+moment@^2.24.0:
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 morgan@^1.9.0:
   version "1.9.1"
