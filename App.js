@@ -75,7 +75,7 @@ const MessagesList = memo(() => {
         sections={formattedData}
         renderItem={renderItem}
         keyExtractor={item => item.id}
-        initialNumToRender={15}
+        initialNumToRender={20}
         maxToRenderPerBatch={20}
         windowSize={100}
         stickySectionHeadersEnabled={false}
